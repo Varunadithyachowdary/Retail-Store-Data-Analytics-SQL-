@@ -4,8 +4,11 @@ Retail Store Sales Data Analysis using SQL. Created database and table, explored
 
 ## Overview 
 
+
 **Project:** Retail Store Analysis
+
 **Database:** `Retail_Store`
+
 **Table:** `Sales`
 
 ## Objective 
