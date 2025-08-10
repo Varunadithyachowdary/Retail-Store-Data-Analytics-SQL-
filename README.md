@@ -43,7 +43,7 @@ Retail store sales analysis using SQL — from database creation to EDA, data cl
 
 ## Project Structure
 
-### 1.💾 Database Setup
+### 💾 Database Setup
 **- Creation of Database:** This is the initial Step in the Project. Created a database named `Retail_Store`.
 
 **- Creation of the Table:** A table named `Sales` is created to store retail store sales data. The table structure includes columns for `Transaction_ID`, `Sale_Date`, `Sale_ Time`, `Customer_ID`, `Gender`, `Age`, `Product Category`, `Quantity`, `Price_per_unit`, `Cost_of_goods_sold (COGS)`, and `Total_sale_amount`.
@@ -69,7 +69,7 @@ Cogs float,
 Total_sale float);
 ```
 
-### 2. 📊 Exploratory Analysis (EDA) & Cleaning
+### 📊 Exploratory Analysis (EDA) & Cleaning
 **Null_Value_Check:** Queried the table to identify any NULL values in all important columns.
 
 ```sql
@@ -131,7 +131,7 @@ SELECT
 FROM Sales;
 ```
 
-### 3. 📈 Analysis & Findings
+### 📈 Analysis & Findings
 
 a. Write a SQL query to retrieve all columns for sales made on '2022-11-05:
 
@@ -211,7 +211,7 @@ select Category, count(distinct Customer_ID) AS Count_of_Unique_Customers from S
 group by Category;
 ```
 
-### 4.📜 Reports
+### 📜 Reports
 
 - Sales on Specific Dates: Extracted sales data for particular dates (e.g., 2022-11-05) for targeted analysis.
   
@@ -229,7 +229,7 @@ group by Category;
 
 - Unique Customers per Category: Counted distinct customers for each product category.
 
-### 📝 5. Conclusion
+### 📝 Conclusion
 
 - The analysis provided clear insights into sales performance across categories, customer demographics, and purchasing patterns.
 
@@ -239,7 +239,7 @@ group by Category;
 
 - The EDA process ensured data quality and accurate insights by checking for null values, correcting column names, and validating key metrics.
 
-### 6. 📂 Repository Structure
+### 📂 Repository Structure
 ```
 Retail-Store-Data-Analytics-SQL/
 │
@@ -248,13 +248,13 @@ Retail-Store-Data-Analytics-SQL/
 ├── README.md          # Project documentation
 ```
 
-### 7. 🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Integrate visual dashboards in Tableau for better insights visualization.
 
 - Automate data updates using scheduled scripts or ETL tools.
 
-### 8. 🏆 Acknowledgements
+### 🏆 Acknowledgements
 
 - Inspired by real-world retail analytics use cases.
 
